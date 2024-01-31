@@ -10,11 +10,14 @@ import UIKit
 
 final class FriendsViewController: UITableViewController {
     
+    private let networkService = NetworkService()
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
         view.backgroundColor = .yellow
         title = "FRIENDS"
+        networkService.getFriends()
 
     }
     
