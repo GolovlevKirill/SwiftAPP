@@ -10,11 +10,15 @@ import UIKit
 
 
 final class PhotosViewController: UICollectionViewController {
+    private let networkService = NetworkService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = .cyan
         collectionView.register(CustomPhotosNewCell.self, forCellWithReuseIdentifier: "photo")
         title = "PHOTOS"
+        
+        networkService.getPhotos()
 
     }
     

@@ -27,7 +27,14 @@ class ViewController: UIViewController {
         let url = URL(string: "https://oauth.vk.com/authorize?client_id=51845933&redirect_uri=https://oauth.vk.com/&scope=262150&display=mobile&response_type=token")
         webView.load(URLRequest(url: url!))
         
-        networkService.getFriends()
+        /*
+        friends +2
+        photos +4
+         groups(+ 262 144)
+        
+ */
+        
+//        networkService.getFriends()
     }
     private func setupViews() {
         view.addSubview(webView)

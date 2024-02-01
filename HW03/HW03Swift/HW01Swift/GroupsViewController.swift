@@ -11,12 +11,15 @@ import UIKit
 
 
 final class GroupsViewController: UITableViewController {
+    private let networkService = NetworkService()
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         view.backgroundColor = .green
         title = "GROUPS"
+        
+        networkService.getGroups()
 
     }
     
