@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FriendsCD" representedClassName="FriendsCD" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="online" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FriendsDate" representedClassName="FriendsDate" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="GroupCD" representedClassName="GroupCD" syncable="YES">
+        <attribute name="descr" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GroupsDate" representedClassName="GroupsDate" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="FriendsCD" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="FriendsDate" positionX="-54" positionY="27" width="128" height="58"/>
+        <element name="GroupCD" positionX="-36" positionY="54" width="128" height="103"/>
+        <element name="GroupsDate" positionX="-18" positionY="81" width="128" height="58"/>
+    </elements>
+</model>
